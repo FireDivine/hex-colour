@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+.bob{
+    display: block;
+    height: 100vh;
+}
+.HexNum{
+    display: block;
+    height: 100vh;
+    font-size: 5rem;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}

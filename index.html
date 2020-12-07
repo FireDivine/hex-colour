@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <title>Hex Colors</title>
+</head>
+<body class="bob" name="bob">
+    <p name ="HexNum" class="HexNum">m</p>
+    <input type="button" class="Choserand" value="Choose" onclick="rand()">
+</body>
+<script type="text/javascript">
+function rand(){
+ var hex = ['eb4034', 'fcba03','03fc94','035afc','6b03fc'];
+
+
+var main = document.querySelector('.bob');
+//var name = document.querySelector('.HexNum');
+randhex= "#"+ hex[Math.floor(Math.random() * hex.length)]
+document.querySelector('.HexNum').innerHTML = randhex;
+
+main.style.backgroundColor = randhex;}
+
+</script>
+</html>
